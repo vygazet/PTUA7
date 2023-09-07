@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Paskaita apie HTML</title>
+</head>
+<body>
+<form action="http://localhost/kontaktai" method="POST" autocomplete="on" novalidate>
+    <label for="fn">Vardas: *</label>
+    <input name="firstname" type="text" id="fn" />
+    <br>
+    <label for="masina">Automobilis</label>
+    <select name="cars" id="masina">
+        <option value="auto1">Volvo</option>
+        <option value="auto2">Saab</option>
+        <option value="kitas3">Fiat</option>
+        <option value="a4">Audi</option>
+    </select>
+    <br>
+    <label for="zinute">Tavo Zinute man</label>
+    <br>
+    <textarea name="message" rows="10" cols="30" id="zinute">
+        The cat was playing in the garden.
+    </textarea>
+    <hr>
+    <button type="button" onclick="alert('Hello World!)">Labas!</button>
+    <br>
+    <input value="Siųsti" type="submit" />
+</form>
+</body>
+</html>
